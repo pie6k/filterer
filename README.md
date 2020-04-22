@@ -2,6 +2,8 @@
 
 Type-safe way to create filters array by assigning value to draft object
 
+![Demo](./demo.gif)
+
 ```ts
 interface Person {
   name: string;
