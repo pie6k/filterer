@@ -1,0 +1,27 @@
+src
+.cache
+demo
+
+#tests
+test
+coverage
+
+#build tools
+.travis.yml
+.jenkins.yml
+.codeclimate.yml
+
+#linters
+.jscsrc
+.jshintrc
+.eslintrc*
+
+#editor settings
+.idea
+.editorconfig
+
+yarn.lock
+tsconfig.json
+.prettierrc
+.gitignore
+demoBuild

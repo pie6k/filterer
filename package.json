@@ -1,0 +1,23 @@
+{
+  "name": "filterer",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "filters",
+    "immer",
+    "proxy"
+  ],
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "homepage": "https://github.com/pie6k/filterer",
+  "repository": {
+    "url": "https://github.com/pie6k/filterer"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}
