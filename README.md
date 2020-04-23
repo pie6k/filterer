@@ -6,6 +6,8 @@ My goal was to create some way of type-safe 'declaring' what I'm looking for and
 
 Note: This is not alternative to `array.filter` - array filter is cool, but you cannot serialize array.filter function. This is a bit different from `array.filer` as you do `person.name = 'Bob'` instead of `return person.name === 'Bob'`, but again - this way it's possible to 'record' your filter and serialize it.
 
+Note this is proof of concept. I want to create concept of 'adapters' later on so this function could output working SQL queries (with joins info) etc out of the box.
+
 ![Demo](./demo.gif)
 
 ```ts
